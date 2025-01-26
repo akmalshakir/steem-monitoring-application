@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blockchain Activity Monitoring</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="https://cdn.jsdelivr.net/npm/steem/dist/steem.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Blockchain Activity Monitoring</h1>
+  </header>
+  <main>
+    <div class="container">
+      <!-- Activity Container -->
+      <div class="activity-container">
+        <h2>Recent Blockchain Activities</h2>
+        <ul id="activity-list"></ul>
+        <div id="pagination"></div>
+      </div>
+
+      <!-- Chart Container -->
+      <div class="chart-container">
+        <canvas id="activityChart" width="400" height="200"></canvas>
+      </div>
+    </div>
+
+    <div class="extra-info">
+      
+      <!-- Trending Accounts -->
+      <div class="trending-accounts">
+        <h3>Trending Accounts</h3>
+        <ul id="trending-accounts"></ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Developer: akmalshakir</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
