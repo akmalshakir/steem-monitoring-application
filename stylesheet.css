@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+.container {
+  display: flex;                
+  justify-content: space-between;
+  gap: 2rem;                    
+  flex-wrap: wrap;
+}
+
+.activity-container {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  overflow-y: auto;
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.activity-container h2 {
+  margin-top: 0;
+}
+
+#activity-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  max-height: 400px;
+}
+
+#activity-list li {
+  background: #f9f9f9;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: white;
+}
+
+.chart-container {
+  flex: 1;
+  max-width: 600px;
+  height: 400px;
+  min-width: 300px;
+}
+
+.extra-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.extra-info > div {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 300px;
+}
+
+.extra-info h3 {
+  margin-top: 0;
+}
+
+.trending-accounts {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;  
+  max-height: 300px;  
+  overflow-y: auto; 
+  width: 100%;
+}
+
+.trending-accounts h3 {
+  margin-top: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.trending-accounts ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.trending-accounts li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
